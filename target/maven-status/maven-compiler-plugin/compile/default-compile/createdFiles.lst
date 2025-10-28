@@ -1,0 +1,8 @@
+com/tpinvite/commands/TpAcceptCommand.class
+com/tpinvite/commands/TpDenyCommand.class
+com/tpinvite/managers/TpRequestManager$2.class
+com/tpinvite/TpInvitePlugin.class
+com/tpinvite/listeners/ChatClickListener.class
+com/tpinvite/managers/TpRequestManager.class
+com/tpinvite/managers/TpRequestManager$1.class
+com/tpinvite/commands/TpRequestCommand.class

@@ -1,0 +1,29 @@
+name: TpInvitePlugin
+version: '${project.version}'
+main: com.tpinvite.TpInvitePlugin
+api-version: '1.20'
+authors: [TpInvitePlugin]
+description: Plugin PaperMC pour les demandes de téléportation entre joueurs
+website: https://github.com/tp-invite-plugin
+
+commands:
+  tpr:
+    description: Demander une téléportation vers un joueur
+    usage: /<command> <joueur>
+    aliases: [tprequest, tpa]
+  tpaccept:
+    description: Accepter une demande de téléportation
+    usage: /<command> [joueur]
+    aliases: [tpyes, tpy]
+  tpdeny:
+    description: Refuser une demande de téléportation
+    usage: /<command> [joueur]
+    aliases: [tpno, tpn]
+
+permissions:
+  tpinvite.request:
+    description: Permet de demander une téléportation
+    default: true
+  tpinvite.accept:
+    description: Permet d'accepter/refuser des demandes de téléportation
+    default: true
